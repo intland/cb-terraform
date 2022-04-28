@@ -1,0 +1,80 @@
+[
+  {
+    "name": "codebeamer-app-repository-access",
+    "host": {
+      "sourcePath": "/media/volume/access"
+    }
+  },
+  {
+    "name": "codebeamer-app-repository-docs",
+    "host": {
+      "sourcePath": "/media/volume/docs"
+    }
+  },
+  {
+    "name": "codebeamer-app-repository-git",
+    "host": {
+      "sourcePath": "/media/volume/git"
+    }
+  },
+  {
+    "name": "codebeamer-app-repository-hg",
+    "host": {
+      "sourcePath": "/media/volume/hg"
+    }
+  },
+  {
+    "name": "codebeamer-app-logs",
+    "host": {
+      "sourcePath": "/media/volume/logs"
+    }
+  },
+  {
+    "name": "codebeamer-app-repository-lucene",
+    "host": {
+      "sourcePath": "/media/volume/lucene"
+    }
+  },
+  {
+    "name": "codebeamer-app-repository-plugins",
+    "host": {
+      "sourcePath": "/media/volume/plugins"
+    }
+  },
+  {
+    "name": "codebeamer-app-repository-search",
+    "host": {
+      "sourcePath": "/media/volume/search"
+    }
+  },
+  {
+    "name": "codebeamer-app-repository-svn",
+    "host": {
+      "sourcePath": "/media/volume/svn"
+    }
+  },
+  {
+    "name": "codebeamer-app-repository-tmp",
+    "host": {
+      "sourcePath": "/media/volume/tmp"
+    }
+  },
+  {
+    "name": "codebeamer-app-repository-logo",
+    "host": {
+      "sourcePath": "/media/volume/logo"
+    }
+  },
+  {
+    "name": "utils",
+    "host": {
+      "sourcePath": "/media/volume/utils"
+    }
+  },
+   {
+    "name": "peer-discovery",
+    "host":{
+      "sourcePath": "/media/volume/peer-discovery"
+    }
+  }
+]
