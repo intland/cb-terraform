@@ -25,8 +25,8 @@ jobs:
       - name: Jenkins Job Trigger
         uses: estherk0/jenkins-trigger@1.0
         with:
-          url: https://eoaiaxm4gdqfelg.m.pipedream.net/
+          url: https://ci.intland.de
           user_name: apiadmin@intland.com
           api_token: 117543ea6f1ebc707bc1f258e45ca0fc0f
           job_name: randomtests
-          timeout: 30
+          timeout: 300
