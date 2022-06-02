@@ -27,7 +27,7 @@ jobs:
         with:
           url: https://pmveo.public.intland.de
           user_name: apiadmin@intland.com
-          parameter: '{"TEST:"lama"}'
+          parameter: '{"TEST":"lama"}'
           api_token: 117543ea6f1ebc707bc1f258e45ca0fc0f
           job_name: randomtests
           timeout: 15
