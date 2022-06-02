@@ -1,0 +1,15 @@
+- name: Jenkins Job Trigger
+  # You may pin to the exact commit or the version.
+  # uses: estherk0/jenkins-trigger@70ee28b6020e5894782308052ae4bba253256823
+  uses: estherk0/jenkins-trigger@1.0
+  with:
+    # Jenkins full URL including http/https protocol
+    url: https://ci.intland.de
+    # User name of Jenkins
+    user_name: apiadmin@intland.com
+    # Jenkins API token
+    api_token: 117543ea6f1ebc707bc1f258e45ca0fc0f
+    # Job name
+    job_name: randomtests
+    # Timeout (seconds) for github action. Set 600s as default
+    timeout: 30
