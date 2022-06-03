@@ -25,7 +25,7 @@ jobs:
       - name: Jenkins Job Trigger
         uses: estherk0/jenkins-trigger@1.0
         with:
-          url: https://pmveo.public.intland.de
+          url: https://ci.intland.de
           user_name: apiadmin@intland.com
           parameter: '{"TEST":"lama"}'
           api_token: 117543ea6f1ebc707bc1f258e45ca0fc0f
