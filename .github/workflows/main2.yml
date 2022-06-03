@@ -23,10 +23,10 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Jenkins Job Trigger
-        uses: joshlk/jenkins-githubaction@V0.0.1
+        uses: estherk0/jenkins-trigger@1.0
         with:
           url: https://ci.intland.de
-          username: apiadmin@intland.com
+          user_name: apiadmin@intland.com
           parameter: '{"TEST":"lama"}'
           api_token: 117543ea6f1ebc707bc1f258e45ca0fc0f
           job_name: randomtests
