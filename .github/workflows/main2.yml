@@ -23,7 +23,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Jenkins Job Trigger
-        uses: estherk0/jenkins-trigger@1.0
+        uses: joshlk/jenkins-githubaction@V0.0.1
         with:
           url: https://ci.intland.de
           user_name: apiadmin@intland.com
