@@ -18,16 +18,15 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    runs-on: [ self-hosted, ci-runner ]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Jenkins Job Trigger
         uses: estherk0/jenkins-trigger@1.0
         with:
-          url: https://pmveo.public.intland.de
+          url: https://ci.intland.de
           user_name: apiadmin@intland.com
-          parameter: '{"TEST":"lama"}'
+          parameter: '{"TEST":"alma"}'
           api_token: 117543ea6f1ebc707bc1f258e45ca0fc0f
           job_name: randomtests
-          timeout: 15
